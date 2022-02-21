@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreyVeryDark"
+    tools:context=".Fragment.School">
+
+
+    <LinearLayout
+        android:id="@+id/llhFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSchoolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="70dp"
+            android:layout_weight="1"
+            android:text="FileName"
+            android:textSize="18sp"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorBlack"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</FrameLayout>

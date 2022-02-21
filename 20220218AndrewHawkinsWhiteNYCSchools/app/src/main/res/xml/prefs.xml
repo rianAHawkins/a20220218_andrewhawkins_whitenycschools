@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Device Setup">
+
+        <Preference
+            android:title="Customize your businesses default app settings"
+            android:summary="Change your vehicle dimensions and enable/disable the PTT Contact List">
+            <intent
+                android:targetPackage="com.givenhansco.keystonenavigation"
+                android:targetClass="com.givenhansco.keystonenavigation.Activities.TruckSettingsActivity"
+                />
+        </Preference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
+    <!--android:enabled="false"-->

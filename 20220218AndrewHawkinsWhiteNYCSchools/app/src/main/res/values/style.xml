@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF1B1B1B</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">#3badff</item>
+        <item name="android:textColor">@color/colorGreyVeryDark</item>
+        <item name="android:textColorHint">#3badff</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="my_dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowMinWidthMajor">30dp</item>
+        <item name="windowMinWidthMinor">30dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="colorAccent">@color/colorBlueHighlight</item>
+        <item name="android:textColorHint">@color/colorYellow</item>
+
+    </style>
+
+    <style name="AppTheme.AltDark" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorBlueHighlight</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.Spring" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorLightOrange</item>
+        <item name="colorAccent">@color/colorBlueHighlight</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.SpookyMonth" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorHalloweenOrange</item>
+        <item name="colorAccent">@color/colorBlueHighlight</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.turkey" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorAutumn</item>
+        <item name="colorAccent">@color/colorBlueHighlight</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.Santa" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorBlueHighlight</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="TicketInformationTextView" parent="android:Widget.TextView">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="colorAccent">#3badff</item>
+
+    </style>
+
+    <style name="SignatureTextView" parent="android:Widget.TextView">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/colorYellow</item>
+
+    </style>
+    <style name="Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="AlertDialogTheme_Plants" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorYellow</item>
+    </style>
+
+    <style name="AlertDialogThemeFuelUsage" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#FF1B1B1B</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorYellow</item>
+    </style>
+
+    <style name="AlertDialogThemeEngineHours" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#FF1B1B1B</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorYellow</item>
+    </style>
+
+    <style name="AlertDialogDark" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#FF1B1B1B</item>
+        <item name="android:textColor">@color/colorYellow</item>
+
+    </style>
+</resources>
